@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="bg-neutral-900 text-white">
+
+  <nav class="w-full bg-neutral-800 py-6">
+    <div class="container flex justify-between items-center">
+      <div class="logo">
+        <a href="index.html"><img class="w-44 hidden sm:block" src="assets/images/logo.svg" alt=""><img
+            class="w-6 sm:hidden" src="assets/images/logo2.svg" alt=""></a>
+      </div>
+      <div class="sm:hidden">
+        <span class="material-icons text-green">
+          drag_handle
+        </span>
+      </div>
+      <ul class="hidden sm:flex items-center">
+        <li><a href="#" class="mr-10 p-2 md:text-lg">首頁</a></li>
+        <li><a href="#" class="mr-10 p-2 md:text-lg">課程介紹</a></li>
+        <li><a href="#" class="flex p-2 md:text-lg"><span class="material-icons mr-1.5">account_circle</span>登入</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="flex w-full">
+    <div class="h-0.5 bg-green w-1/2"></div>
+    <div class="h-0.5 bg-blue w-1/2"></div>
+  </div>
+
+  <%- contents %>
+
+    <footer class="footer py-6 text-center text-neutral-500 bg-neutral-800">
+      Coding Home © 2022 All Rights Reserved
+    </footer>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

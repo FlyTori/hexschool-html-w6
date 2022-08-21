@@ -1,0 +1,105 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: courses
+---
+
+
+<ul class="overflow-x-scroll course-carousel container flex mt-10">
+  <li><a href="#" class="block whitespace-nowrap py-4 px-8 mr-4 border rounded-lg border-green text-green">所有課程</a></li>
+  <li><a href="#" class="block whitespace-nowrap py-4 px-8 mr-4 border rounded-lg border-white">行動應用開發</a></li>
+  <li><a href="#" class="block whitespace-nowrap py-4 px-8 mr-4 border rounded-lg border-white">資料庫/資料科學</a></li>
+  <li><a href="#" class="block whitespace-nowrap py-4 px-8 mr-4 border rounded-lg border-white">前端語言</a></li>
+  <li><a href="#" class="block whitespace-nowrap py-4 px-8 mr-4 border rounded-lg border-white">後端語言</a></li>
+  <li><a href="#" class="block whitespace-nowrap py-4 px-8 border rounded-lg border-white">作業系統與伺服器</a></li>
+</ul>
+
+<ul class="course-list container mt-12">
+  <li class="flex-col justify-center md:flex md:flex-row items-center bg-neutral-800 rounded-3xl py-8 px-6 md:p-12 mb-6 md:mb-8">
+    <div class="profile w-full md:w-auto mr-12 mb-6 flex-col justify-center items-center ">
+      <img class="mx-auto rounded-full mb-2 max-w-[100px]" src="assets/images/teacher01.jpg" alt="">
+      <p class="text-center">Belinda</p>
+    </div>
+    <div class="content mb-12 md:mb-0 md:mr-12">
+      <p class="text-2xl mb-1">基礎前端 - HTML</p>
+      <p class="text-green mb-2">前端語言</p>
+      <p>帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子，輕鬆進入網頁架設的世界，完成一個基礎的網頁架設。</p>
+    </div>
+    <div class="flex-col items-center min-w-[168px]">
+      <div class="flex items-center justify-center md:flex-col">
+        <p class="text-center mb-1 mr-2 md:mr-0">50分鐘</p>
+        <p class="text-center text-[32px] mb-4 font-semi-bold">NT$1600</p>
+      </div>
+      <div class="flex md:flex-col">
+        <div class="button w-1/2 md:w-full text-center mr-2 md:mr-0 py-2 border rounded-lg text-lg md:mb-2">課程介紹</div>
+        <div class="button w-1/2 md:w-full text-center py-2 rounded-lg text-lg bg-gradient-to-r from-blue to-green">立即預約</div>
+      </div>
+    </div>
+  </li>
+  <li class="flex-col justify-center md:flex md:flex-row items-center bg-neutral-800 rounded-3xl py-8 px-6 md:p-12 mb-6 md:mb-8">
+    <div class="profile w-full md:w-auto mr-12 mb-6 flex-col justify-center items-center ">
+      <img class="mx-auto rounded-full mb-2 max-w-[100px]" src="assets/images/teacher02.jpg" alt="">
+      <p class="text-center">Guava</p>
+    </div>
+    <div class="content mb-12 md:mb-0 md:mr-12">
+      <p class="text-2xl mb-1">2022 Python 全攻略｜從入門到實務</p>
+      <p class="text-green mb-2">後端語言</p>
+      <p>Python支援多種程式設計範式，包括函數式、指令式、反射式、結構化和物件導向程式設計，它擁有動態型別系統和垃圾回收功能，能夠自動管理記憶體使用，本堂課帶你無痛入門，開發簡單的應用！</p>
+    </div>
+    <div class="flex-col items-center min-w-[168px]">
+      <div class="flex items-center justify-center md:flex-col">
+        <p class="text-center mb-1 mr-2 md:mr-0">50分鐘</p>
+        <p class="text-center text-[32px] mb-4 font-semi-bold">NT$2000</p>
+      </div>
+      <div class="flex md:flex-col">
+        <div class="button w-1/2 md:w-full text-center mr-2 md:mr-0 py-2 border rounded-lg text-lg md:mb-2">課程介紹</div>
+        <div class="button w-1/2 md:w-full text-center py-2 rounded-lg text-lg bg-gradient-to-r from-blue to-green">立即預約</div>
+      </div>
+    </div>
+  </li>
+  <li class="flex-col justify-center md:flex md:flex-row items-center bg-neutral-800 rounded-3xl py-8 px-6 md:p-12 mb-6 md:mb-8">
+    <div class="profile w-full md:w-auto mr-12 mb-6 flex-col justify-center items-center ">
+      <img class="mx-auto rounded-full mb-2 max-w-[100px]" src="assets/images/teacher03.jpg" alt="">
+      <p class="text-center">Joe</p>
+    </div>
+    <div class="content mb-12 md:mb-0 md:mr-12">
+      <p class="text-2xl mb-1">活用 Line Bot ｜APP 開發到上架完整實戰攻略</p>
+      <p class="text-green mb-2">行動應用開發</p>
+      <p>Line Bot 可用於實用的目的，如客戶服務或資訊獲取，有些聊天機器人會搭載自然語言處理系統，但大多簡單的系統只會擷取輸入的關鍵字，再從語料庫中找尋最合適的應答句，本堂課會帶你了解 Line Bot 如何結合其他工具的應用。</p>
+    </div>
+    <div class="flex-col items-center min-w-[168px]">
+      <div class="flex items-center justify-center md:flex-col">
+        <p class="text-center mb-1 mr-2 md:mr-0">50分鐘</p>
+        <p class="text-center text-[32px] mb-4 font-semi-bold">NT$1800</p>
+      </div>
+      <div class="flex md:flex-col">
+        <div class="button w-1/2 md:w-full text-center mr-2 md:mr-0 py-2 border rounded-lg text-lg md:mb-2">課程介紹</div>
+        <div class="button w-1/2 md:w-full text-center py-2 rounded-lg text-lg bg-gradient-to-r from-blue to-green">立即預約</div>
+      </div>
+    </div>
+  </li>
+  <li class="flex-col justify-center md:flex md:flex-row items-center bg-neutral-800 rounded-3xl py-8 px-6 md:p-12 mb-6 md:mb-8">
+    <div class="profile w-full md:w-auto mr-12 mb-6 flex-col justify-center items-center ">
+      <img class="mx-auto rounded-full mb-2 max-w-[100px]" src="assets/images/teacher04.jpg" alt="">
+      <p class="text-center">Lina</p>
+    </div>
+    <div class="content mb-12 md:mb-0 md:mr-12">
+      <p class="text-2xl mb-1">Linux 零基礎七天入門｜入門到實務</p>
+      <p class="text-green mb-2">作業系統與伺服器</p>
+      <p>Linux是一種自由和開放原始碼的類UNIX作業系統，作業系統中包含了許多使用者圖形介面和其他實用工具。課程會一步一步帶著你走，讓你能夠從頭開始學習程式語言的基本語法</p>
+    </div>
+    <div class="flex-col items-center min-w-[168px]">
+      <div class="flex items-center justify-center md:flex-col">
+        <p class="text-center mb-1 mr-2 md:mr-0">50分鐘</p>
+        <p class="text-center text-[32px] mb-4 font-semi-bold">NT$1100</p>
+      </div>
+      <div class="flex md:flex-col">
+        <div class="button w-1/2 md:w-full text-center mr-2 md:mr-0 py-2 border rounded-lg text-lg md:mb-2">課程介紹</div>
+        <div class="button w-1/2 md:w-full text-center py-2 rounded-lg text-lg bg-gradient-to-r from-blue to-green">立即預約</div>
+      </div>
+    </div>
+  </li>
+  
+  
+</ul>
