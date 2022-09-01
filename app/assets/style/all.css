@@ -1,37 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-/* feature section on index.html */
-.feature .hover-cards:hover .material-icons{
-  color: transparent;
-}
-
-.feature2 a:hover .bg-image-hover {
-  opacity: 0.5;
-}
-
-.feature2 a:hover .material-icons {
-  color: #62DB54;
-}
-
-.feature2 a:hover .text-body{
-  color: #ffffff;
-}
-
-.feature2 a:hover .deco{
-  background-color: #62DB54;
-}
-
-
-
-
-.articles .article:hover .hover-effect{
-  visibility: visible;
-}
-
-
-/* ul::-webkit-scrollbar{
-    display: none;
-} */

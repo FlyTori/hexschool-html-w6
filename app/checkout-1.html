@@ -1,0 +1,127 @@
+---
+title: 課程報名
+layout: ./app/layout.ejs
+engine: ejs
+current: checkout1
+---
+
+<div class="bg-neutral-800 py-7 pb-12">
+  <ul class="flex items-center justify-center max-w-[832px] mx-auto px-8">
+    <li class="relative rounded-full bg-green flex justify-center items-center">
+      <p class="text-white w-6 h-6 text-center font-mono">1</p>
+      <p class="absolute -bottom-8 text-green whitespace-nowrap">課程報名</p>
+    </li>
+    <li class="w-full h-[1px] bg-white"></li>
+    <li class="relative rounded-full border border-white flex justify-center items-center">
+      <p class="text-white w-6 h-6 text-center font-mono">2</p>
+      <p class="absolute -bottom-8 text-neutral-400 whitespace-nowrap">信用卡付款</p>
+    </li>
+    <li class="w-full h-[1px] bg-white"></li>
+    <li class="relative rounded-full border border-white flex justify-center items-center">
+      <p class="text-white w-6 h-6 text-center font-mono">3</p>
+      <p class="absolute -bottom-8 text-neutral-400 whitespace-nowrap">付款成功</p>
+    </li>
+  </ul>
+</div>
+
+<div class="container max-w-7xl">
+  <div class="flex flex-col lg:flex-row lg:justify-between items-start">
+    <div class="relative mt-10 p-6 flex flex-col items-center text-center bg-[#2D2D2D] w-full lg:max-w-[416px] lg:px-8 lg:py-12 lg:w-full lg:-mr-12 lg:shadow-md lg:mt-[163px] z-10 ">
+      <img src="assets/images/teacher01.jpg" alt="" class="border border-green rounded-full w-[100px]">
+      <p class="font-bold mt-4">2022 Python 全攻略｜從入門到實務</p>
+      <p class="text-green mt-2">前端語言</p>
+      <p class="text-white mt-2">帶領無基礎、文組生、對網頁設計有興趣的人，進入網站工程領域的基礎課，將從最基礎的 HTML 語法出發。</p>
+      <div class="absolute w-6 h-6 translate-x-3 bg-[#2D2D2D] -bottom-2 right-1/2 lg:top-1/2 lg:right-1 rotate-45 z-20"></div>
+    </div>
+
+    <div class="mb-10 w-full lg:max-w-[940px] lg:pl-28 mt-10 p-6 bg-neutral-800">
+      <div class="text-center">
+        <h2 class="text-2xl font-bold">課程報名</h2>
+        <p class="text-lg mt-6 font-bold">選擇付款方式</p>
+        <ul class="flex flex-wrap">
+          <li class="w-1/2 lg:w-1/4">
+            <a href="#"
+              class="block whitespace-nowrap border mt-4 p-4 rounded-xl mr-2 hover:text-green hover:border-green">
+              信用卡付款
+            </a>
+          </li>
+          <li class="w-1/2 lg:w-1/4">
+            <a href="#"
+              class="block whitespace-nowrap border mt-4 p-4 rounded-xl ml-2 lg:mr-4 hover:text-green hover:border-green">
+              超商繳款
+            </a>
+          </li>
+          <li class="w-1/2 lg:w-1/4">
+            <a href="#"
+              class="block whitespace-nowrap border mt-4 p-4 rounded-xl mr-2 hover:text-green hover:border-green">
+              ATM轉帳
+            </a>
+          </li>
+          <li class="w-1/2 lg:w-1/4">
+            <a href="#"
+              class="block whitespace-nowrap border mt-4 p-4 rounded-xl ml-2 lg:mr-0 hover:text-green hover:border-green">
+              12期分期付款
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <h2 class="font-bold mt-8 text-center text-lg">訂單資訊</h2>
+
+      <div class="mt-4 grid grid-cols-2 gap-6 mb-2">
+        <label class="col-span-2 md:col-span-1">
+          <div class="text-neutral-300">姓名</div>
+          <input type="text"
+            class="w-full text-neutral-300 mt-2 bg-neutral-800 border border-neutral-300 rounded focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
+            placeholder="請輸入姓名">
+        </label>
+
+        <label class="col-span-2 md:col-span-1">
+          <div class="text-neutral-300">電話</div>
+          <input type="tel"
+            class="w-full text-neutral-300 mt-2 bg-neutral-800 border border-neutral-300 rounded focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"" placeholder="請輸入電話號碼">
+        </label>
+
+        <label class="col-span-2">
+          <div class="text-neutral-300">Email</div>
+          <input type="email"
+            class="w-full text-neutral-300 mt-2 bg-neutral-800 border border-neutral-300 rounded focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
+            placeholder="請輸入Email">
+        </label>
+
+        <label class="col-span-2 md:col-span-1">
+          <div class="text-neutral-300">課程</div>
+          <select name="" id=""
+            class="w-full text-neutral-300 mt-2 bg-neutral-800 border border-neutral-300 rounded focus:border-green focus:ring focus:ring-green focus:ring-opacity-50">
+            <option value="">課程一</option>
+            <option value="">課程二</option>
+            <option value="">課程三</option>
+            <option value="">課程四</option>
+          </select>
+        </label>
+
+        <label class="col-span-2 md:col-span-1">
+          <div class="text-neutral-300">想預約的日期</div>
+          <input type="date"
+            class="w-full text-neutral-300 mt-2 bg-neutral-800 border border-neutral-300 rounded focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
+            placeholder="請選擇日期">
+        </label>
+
+        <label class="col-span-2">
+          <div class="text-neutral-300">上課地點</div>
+          <input type="text"
+            class="w-full text-neutral-300 mt-2 bg-neutral-800 border border-neutral-300 rounded focus:border-green focus:ring focus:ring-green focus:ring-opacity-50"
+            placeholder="請輸入上課地點">
+        </label>
+
+      </div>
+      <div class="flex flex-col justify-between items-center md:flex-row">
+        <p class="text-lg mt-6 font-mono">NT$1600</p>
+        <a href="checkout-2.html"
+          class="button mt-6 bg-gradient-to-l from-green to-blue px-6 py-2 rounded-md text-xl text-center hover:-translate-y-0.5 transition duration-200">前往結賬</a>
+      </div>
+
+    </div>
+
+  </div>
+</div>
